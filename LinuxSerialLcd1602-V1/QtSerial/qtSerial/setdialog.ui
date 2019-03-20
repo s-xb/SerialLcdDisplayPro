@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>setDialog</class>
+ <widget class="QDialog" name="setDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>339</width>
+    <height>197</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="comboBoxTty">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>86</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>USBtty0</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>USBtty6</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBoxBaud">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>50</y>
+     <width>86</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>1200</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2400</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4800</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>9600</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>115200</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBoxBit">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>80</y>
+     <width>86</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buad:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>80</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DataBit:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>67</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>USBtty:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="okButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>140</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>140</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
